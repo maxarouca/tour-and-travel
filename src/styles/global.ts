@@ -13,7 +13,24 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
   }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h5{
+    font-family: 'Playfair Display', serif;
+
+  }
+
+  a{
+    cursor: pointer;
+  }
+
+  section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
   }
 `
 

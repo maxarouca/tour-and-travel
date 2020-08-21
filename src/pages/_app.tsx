@@ -14,6 +14,10 @@ function App({ Component, pageProps }: AppProps) {
           name="description"
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
